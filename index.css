@@ -1,0 +1,98 @@
+
+/* card component */
+.row{
+    background-color:darkslategray;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    margin-top: 20px;
+    background-color:dimgrey;
+    height: 500px;
+}
+
+.card:hover{
+    background-color: black;
+}
+
+.cardimg{
+    width: 100%;
+    height: 150px;
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color:azure;
+    background-color: black;
+}
+
+
+.card-text{
+    text-align: center;
+    font-weight: 600;
+    color: wheat;
+}
+
+.btn{
+    display: block;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn:hover{
+    background-color: dimgrey;
+    color: white;
+}
+
+
+/* weather component */
+
+body{
+    background-color:darkslategrey;
+}
+
+.container{
+    margin-top: 8%;
+    background-color: #071910;
+    width: 100%;
+    /* height: 500px; */
+}
+
+#wethicon{
+    width: 300px;
+}
+
+.wethtitle{
+    display: inline;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+.wethbody{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wethdata{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+
+/* destruct */
+
+.distruct{
+    display: none !important;
+    /* position: absolute;
+    z-index: -20; */
+}
+
+
